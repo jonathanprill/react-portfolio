@@ -4,7 +4,7 @@ function About() {
 
     return (
         <div className='card'>
-            
+
             <h1>About Me</h1>
             <p className='card-text'>
                 Being a mechanical engineer for about a decade I realized most of my enjoyment came from working with software.
