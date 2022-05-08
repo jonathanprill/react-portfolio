@@ -7,6 +7,8 @@ import Portfolio from './pages/Portfolio';
 import Welcome from './pages/Welcome';
 import Projects from './pages/Projects';
 import Footer from './Footer';
+import Static from './pages/Static';
+import Xbox from './pages/Xbox';
 
 function PageContainer() {
 
@@ -36,6 +38,14 @@ function PageContainer() {
             return <Projects />
         }
     }
+    const renderStatic = () => {
+        if (currentPage === 'Welcome') {
+            return <Static />
+        }
+        else {
+            return <Xbox />
+        }
+    }
 
 
 
@@ -45,7 +55,10 @@ function PageContainer() {
     return (
         <div className='hero'>
             <div className='moon'>
-                <div className='tv-container'><div className='tv-image'><NavButtons currentPage={currentPage} handlePageChange={handlePageChange} /></div></div>
+                <div className='tv-container'>
+                    <div className='tv-image'><NavButtons currentPage={currentPage} handlePageChange={handlePageChange} /></div>
+                    {renderStatic()}
+                </div>
 
                 <div className='card-container'>
                     {renderPage()}

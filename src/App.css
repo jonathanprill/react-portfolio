@@ -65,6 +65,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
+  z-index: 2;
 }
 
 .tv-buttons {
@@ -91,6 +92,28 @@ button {
 .button-4 {
   margin-top: 13px;
   height: 29px;
+}
+
+.static{
+  background-image: url(../src/assets/static.gif);
+  z-index: 1;
+  width: 500px;
+  height: 350px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.xbox{
+  background-image: url(../src/assets/xbox-Animation3.gif);
+  z-index: 1;
+  width: 480px;
+  height: 300px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
 }
 
 .card-container {
@@ -594,6 +617,7 @@ label {
     justify-content: center;
     width: 100%;
     height: 63vw;
+    margin-left: 0;
   }
 
   .card-container {
@@ -654,8 +678,8 @@ label {
   }
 
   .tv-image {
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
   }
 
   .tv-buttons {
