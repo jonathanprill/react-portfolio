@@ -8,10 +8,10 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/license-MIT-blue" />
-    <img src="https://img.shields.io/github/repo-size/jonathanprill/pwa-budget-tracker" />
+    <img src="https://img.shields.io/github/repo-size/jonathanprill/react-portfolio"/>
     <!-- <img src="https://img.shields.io/github/languages/top/jonathanprill/spray-can-project-2"  />  -->
-    <img src="https://img.shields.io/github/issues/jonathanprill/pwa-budget-tracker" />
-    <img src="https://img.shields.io/github/last-commit/jonathanprill/pwa-budget-tracker" >
+    <img src="https://img.shields.io/github/issues/jonathanprill/react-portfolio" />
+    <img src="https://img.shields.io/github/last-commit/jonathanprill/react-portfolio" >
 </p>
 
 <p align="center">
@@ -53,6 +53,6 @@ This project is using the MIT license. For more information on this and other li
 
 This project is using the [Contributor Covenant](https://www.contributor-covenant.org/) as a default. Please read over these guidlines before contributing
     
-    
+
 ## Questions
 Reach out via my [Github Profile](https://github.com/jonathanprill)
