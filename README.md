@@ -1,7 +1,7 @@
 <h1 align="center">React Portfolio</h1>
 
 <p align="center">
-    <a target="_blank" href="">Link To Deployed Website</a>
+    <a target="_blank" href="https://jonathanprill.github.io/react-portfolio/">Link To Deployed Website</a>
 </p>
 
 <br />
@@ -22,6 +22,7 @@
     <img src="https://img.shields.io/badge/-CSS-blue" />
 </p>
 
+![ScreenShot](/public/react-portfolio-gif.gif "screenshot")
 
 ## Description
 
