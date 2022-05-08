@@ -7,7 +7,7 @@ function Portfolio() {
             <h1>Portfolio</h1>
             <p>
                 See some of my projects below.
-               
+
             </p>
         </div>
     )
