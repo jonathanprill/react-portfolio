@@ -1,15 +1,26 @@
 import React, { useState } from 'react';
+import Welcome from './pages/Welcome';
 
 
 function PageContainer() {
 
     
+    const [currentPage, setCurrentPage] = useState('Welcome');
+
+    const renderPage = () => {
+        if (currentPage === 'Welcome') {
+            return <Welcome />
+        }
+      
+
+    };
 
 
 
 
     return (
-        <h1>TEST</h1>
+        <div> {renderPage()}</div>
+        
     )
 }
 
