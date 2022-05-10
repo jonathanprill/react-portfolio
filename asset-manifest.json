@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.822abc18.css",
+    "main.css": "/react-portfolio/static/css/main.3bae6467.css",
     "main.js": "/react-portfolio/static/js/main.00cbb752.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/xbox-Animation3.gif": "/react-portfolio/static/media/xbox-Animation3.94452a3ca20fd5d250d1.gif",
@@ -9,12 +9,12 @@
     "static/media/IMG-3707.jpg": "/react-portfolio/static/media/IMG-3707.edaecd349d1a4de05224.jpg",
     "static/media/graphics-moon_full.png": "/react-portfolio/static/media/graphics-moon_full.cc448c22c2d33f305edf.png",
     "index.html": "/react-portfolio/index.html",
-    "main.822abc18.css.map": "/react-portfolio/static/css/main.822abc18.css.map",
+    "main.3bae6467.css.map": "/react-portfolio/static/css/main.3bae6467.css.map",
     "main.00cbb752.js.map": "/react-portfolio/static/js/main.00cbb752.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.822abc18.css",
+    "static/css/main.3bae6467.css",
     "static/js/main.00cbb752.js"
   ]
 }
