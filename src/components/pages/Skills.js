@@ -5,6 +5,7 @@ function Skills() {
     return (
         <div className='card'>
             <h1>Skills</h1>
+            {/* List of Skills as SVG icons */}
             <section className="skills">
                 <div className="skills-icons html-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"

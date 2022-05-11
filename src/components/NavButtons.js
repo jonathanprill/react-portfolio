@@ -3,7 +3,7 @@ import React from 'react';
 
 function NavButtons({ currentPage, handlePageChange }) {
 
-
+    // Nav buttons which will render on top of TV buttons
     return (
 
         <div className='tv-buttons'>

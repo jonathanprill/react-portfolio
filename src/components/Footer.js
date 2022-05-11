@@ -4,6 +4,7 @@ import React from 'react';
 function Footer() {
 
 
+    // Footer with contact info, will always render at bottom of screen
     return (
 
         <div className='footer'>

@@ -47,7 +47,7 @@ body {
   display: flex;
   align-items: center;
   background-repeat: no-repeat;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .tv-container {
@@ -55,7 +55,6 @@ body {
   height: 40vw;
   display: flex;
   align-items: center;
-  margin-left: 60px;
 }
 
 .tv-image {
@@ -84,15 +83,21 @@ button {
   border: none;
   background-color: transparent;
   height: 20px;
-  width: 100px;
+  width: 96px;
   margin-bottom: 2px;
   color: black;
   font-weight: bold;
 }
 
+button:hover {
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(23, 23, 23, 0.52), 0 1px 10px 0 rgba(0, 0, 0, 0.52);
+}
+
 .button-4 {
   margin-top: 13px;
+  margin-left: 8px;
   height: 29px;
+  width: 84px;
 }
 
 .static{
@@ -106,8 +111,38 @@ button {
   position: absolute;
 }
 
-.xbox{
-  background-image: url(../src/assets/xbox-Animation3.gif);
+.about-tv{
+  background-image: url(../src/assets/react-about-gif.gif);
+  z-index: 1;
+  width: 480px;
+  height: 300px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.contact-tv{
+  background-image: url(../src/assets/react-contact-gif.gif);
+  z-index: 1;
+  width: 480px;
+  height: 300px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.skills-tv{
+  background-image: url(../src/assets/react-skills-gif.gif);
+  z-index: 1;
+  width: 480px;
+  height: 300px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.projects-tv{
+  background-image: url(../src/assets/react-projects-gif.gif);
   z-index: 1;
   width: 480px;
   height: 300px;
@@ -119,20 +154,20 @@ button {
 
 .card-container {
   /* z-index: -1; */
-  width: 40vw;
-  height: 40vw;
+  width: 480px;
+  height: 480px;
   content: '';
   background: url(https://npcdn.g4tv.com/top_Headlines_Bottom_Right_Glitch_a9bb5b3edf.svg) no-repeat;
   background-size: 100%;
   background-position: bottom right;
-  margin-right: 60px;
+  margin-left: 190px;
 }
 
 .card {
   background-color: rgb(17, 17, 20);
   color: white;
-  width: 37vw;
-  height: 37vw;
+  width: 440px;
+  height: 440px;
   position: absolute;
 }
 
@@ -161,7 +196,7 @@ p {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 70px 50px;
+  margin: 0 35px;
 }
 
 .skills-icons {
@@ -506,14 +541,59 @@ p {
 
 
 .project-article {
-  border-top: 2px solid #007FFD;
-  box-shadow: 0 2px 4px -1px rgba(221, 221, 221, 0.2), 0 4px 5px 0 rgba(221, 221, 221, 0.14), 0 1px 10px 0 rgba(221, 221, 221, 0.12);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px -1px rgba(120, 120, 120, 0.2), 0 4px 6px 0 rgba(120, 120, 120, 0.14), 0 1px 10px 0 rgba(120, 120, 120, 0.12);
   width: 250px;
   padding: 3rem 3rem 2.5rem;
   margin: 20px;
   margin-bottom: 20px;
   color: white;
 }
+
+.spray-can:hover {
+  box-shadow: 0 2px 4px -1px rgba(255, 255, 255, 0.2), 0 4px 5px 0 rgba(255, 255, 255, 0.14), 0 1px 10px 0 rgba(255, 255, 255, 0.12);
+  background-image: url(../src/assets/spray-can-image.PNG);
+  background-size: cover;
+  background-position: 75px 70px;
+  transform: rotate(-1deg);
+}
+.chessmaster:hover {
+  box-shadow: 0 2px 4px -1px rgba(255, 255, 255, 0.2), 0 4px 5px 0 rgba(255, 255, 255, 0.14), 0 1px 10px 0 rgba(255, 255, 255, 0.12);
+  background-image: url(../src/assets/chessmaster-image.PNG);
+  background-size: cover;
+  background-position: 52px 95px;
+  transform: rotate(-1deg);
+}
+.taskmaster:hover {
+  box-shadow: 0 2px 4px -1px rgba(255, 255, 255, 0.2), 0 4px 5px 0 rgba(255, 255, 255, 0.14), 0 1px 10px 0 rgba(255, 255, 255, 0.12);
+  background-image: url(../src/assets/taskmaster-image.PNG);
+  background-size: cover;
+  background-position: 41px 75px;
+  transform: rotate(-1deg);
+}
+.hacker-forum:hover {
+  box-shadow: 0 2px 4px -1px rgba(255, 255, 255, 0.2), 0 4px 5px 0 rgba(255, 255, 255, 0.14), 0 1px 10px 0 rgba(255, 255, 255, 0.12);
+  background-image: url(../src/assets/hack-forum-back.gif);
+  background-size: cover;
+  background-position: 120px 35px;
+  transform: rotate(-1deg);
+}
+.weather:hover {
+  box-shadow: 0 2px 4px -1px rgba(255, 255, 255, 0.2), 0 4px 5px 0 rgba(255, 255, 255, 0.14), 0 1px 10px 0 rgba(255, 255, 255, 0.12);
+  background-image: url(../src/assets/weather-image.PNG);
+  background-size: cover;
+  background-position: 50px 44px;
+  transform: rotate(-1deg);
+}
+.readme-gen:hover {
+  box-shadow: 0 2px 4px -1px rgba(255, 255, 255, 0.2), 0 4px 5px 0 rgba(255, 255, 255, 0.14), 0 1px 10px 0 rgba(255, 255, 255, 0.12);
+  background-image: url(../src/assets/readme-image.PNG);
+  background-size: cover;
+  background-position: 70px 44px;
+  transform: rotate(-1deg);
+}
+
+
 
 .git-icon {
   padding: 10px 0 0 0;
@@ -551,7 +631,7 @@ p {
 }
 
 .active {
-  box-shadow: 0 2px 4px -1px rgba(255, 255, 255, 0.2), 0 4px 5px 0 rgba(255, 255, 255, 0.52), 0 1px 10px 0 rgba(255, 255, 255, 0.52);
+  box-shadow: 0 2px 4px -1px rgba(184, 184, 184, 0.2), 0 4px 5px 0 rgba(184, 184, 184, 0.52), 0 1px 10px 0 rgba(184, 184, 184, 0.52);
 }
 
 .personal-photo {

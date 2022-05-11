@@ -4,10 +4,9 @@ function Portfolio() {
 
     return (
         <div className='card'>
-            <h1>Portfolio</h1>
+            <h1>Projects</h1>
             <p>
                 See some of my projects below.
-
             </p>
         </div>
     )

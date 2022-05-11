@@ -2,19 +2,21 @@ import React from 'react';
 
 function Projects() {
 
+    // array of project cards that will populate on screen
     const cardInfo = [
-        { languages: 'APIs and mySQL', title: 'Spray Can', desc: 'Discover and tag your favorite street art.', gitlink: 'https://github.com/jonathanprill/spray-can-project-2', link: 'https://enigmatic-cliffs-72783.herokuapp.com/' },
-        { languages: 'APIs and JS', title: 'Chess Master', desc: 'For chess players that want to take their game to the next level.', gitlink: 'https://github.com/jowstafford/ChessMaster', link: 'https://jowstafford.github.io/ChessMaster/' },
-        { languages: 'Local Storage', title: 'Taskmaster Pro', desc: 'To-do app inspired by Asana.', gitlink: 'https://github.com/jonathanprill/taskmaster-pro', link: 'https://jonathanprill.github.io/taskmaster-pro/' },
-        { languages: 'mySQL and Node', title: 'Hacker Forum', desc: 'Public square for coders.', gitlink: 'https://github.com/jonathanprill/hacker-forum', link: 'https://nameless-sands-05757.herokuapp.com/' },
-        { languages: 'APIs and JS', title: 'Weather Dashboard', desc: 'Check your local weather.', gitlink: 'https://github.com/jonathanprill/weather-dashboard', link: 'https://jonathanprill.github.io/weather-dashboard/' },
-        { languages: 'Node and JS', title: 'README Generator', desc: 'Developed to save time for busy developers.', gitlink: 'https://github.com/jonathanprill/README-Generator', link: 'https://drive.google.com/file/d/1AFmAA9VnlUAWVOUEvc40V26UtxTXJ3OB/view' }
+        { languages: 'APIs and mySQL', title: 'Spray Can', desc: 'Discover and tag your favorite street art.', gitlink: 'https://github.com/jonathanprill/spray-can-project-2', link: 'https://enigmatic-cliffs-72783.herokuapp.com/', class: 'project-article spray-can' },
+        { languages: 'APIs and JS', title: 'Chess Master', desc: 'Take your chess game to the next level.', gitlink: 'https://github.com/jowstafford/ChessMaster', link: 'https://jowstafford.github.io/ChessMaster/', class: 'project-article chessmaster' },
+        { languages: 'Local Storage', title: 'Taskmaster Pro', desc: 'To-do app inspired by Asana.', gitlink: 'https://github.com/jonathanprill/taskmaster-pro', link: 'https://jonathanprill.github.io/taskmaster-pro/', class: 'project-article taskmaster' },
+        { languages: 'mySQL and Node', title: 'Hacker Forum', desc: 'Public square for coders.', gitlink: 'https://github.com/jonathanprill/hacker-forum', link: 'https://nameless-sands-05757.herokuapp.com/', class: 'project-article hacker-forum' },
+        { languages: 'APIs and JS', title: 'Weather Dashboard', desc: 'Check your local weather.', gitlink: 'https://github.com/jonathanprill/weather-dashboard', link: 'https://jonathanprill.github.io/weather-dashboard/', class: 'project-article weather' },
+        { languages: 'Node and JS', title: 'README Generator', desc: 'Save time for busy developers.', gitlink: 'https://github.com/jonathanprill/README-Generator', link: 'https://drive.google.com/file/d/1AFmAA9VnlUAWVOUEvc40V26UtxTXJ3OB/view', class: 'project-article readme-gen' }
     ]
 
+    // card structure
     const renderCard = (card, index) => {
         return (
 
-            <article className="project-article" key={index}>
+            <article className={card.class} key={index}>
                 <div className="project-content">
                     <div className="post-data">{card.languages}</div>
                     <a target='_blank' rel="noopener noreferrer" href={card.gitlink}>
@@ -34,6 +36,7 @@ function Projects() {
 
         <section className="section-project">
             <div className="project-articles">
+                {/* map through array above */}
                 {cardInfo.map(renderCard)}
             </div>
         </section>

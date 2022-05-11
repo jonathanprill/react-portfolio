@@ -8,12 +8,16 @@ import Welcome from './pages/Welcome';
 import Projects from './pages/Projects';
 import Footer from './Footer';
 import Static from './pages/Static';
-import Xbox from './pages/Xbox';
+import AboutTv from './pages/AboutTv';
+import ContactTv from './pages/ContactTv';
+import SkillsTv from './pages/SkillsTv';
+import ProjectsTv from './pages/ProjectsTv';
 
 function PageContainer() {
-
+    // will change pages based on currentPage but will default start on Welcome
     const [currentPage, setCurrentPage] = useState('Welcome');
 
+    // will render pages based upon which nav button was clicked
     const renderPage = () => {
         if (currentPage === 'Welcome') {
             return <Welcome />
@@ -32,18 +36,28 @@ function PageContainer() {
         }
 
     };
-
+    // renders projects if clicked
     const renderProjects = () => {
         if (currentPage === 'Portfolio') {
             return <Projects />
         }
     }
+    // will render Tv Station based upon which nav button was clicked
     const renderStatic = () => {
         if (currentPage === 'Welcome') {
             return <Static />
         }
-        else {
-            return <Xbox />
+        if (currentPage === 'About') {
+            return <AboutTv />
+        }
+        if (currentPage === 'Contact') {
+            return <ContactTv />
+        }
+        if (currentPage === 'Skills') {
+            return <SkillsTv />
+        }
+        if (currentPage === 'Portfolio') {
+            return <ProjectsTv />
         }
     }
 
