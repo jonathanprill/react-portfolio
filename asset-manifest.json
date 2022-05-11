@@ -1,20 +1,29 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.3bae6467.css",
-    "main.js": "/react-portfolio/static/js/main.00cbb752.js",
+    "main.css": "/react-portfolio/static/css/main.d63ca42b.css",
+    "main.js": "/react-portfolio/static/js/main.0b5cbd04.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/xbox-Animation3.gif": "/react-portfolio/static/media/xbox-Animation3.94452a3ca20fd5d250d1.gif",
+    "static/media/react-about-gif.gif": "/react-portfolio/static/media/react-about-gif.da88ea7177fa40d931fc.gif",
+    "static/media/react-skills-gif.gif": "/react-portfolio/static/media/react-skills-gif.a0b375e57c28e0392435.gif",
+    "static/media/react-contact-gif.gif": "/react-portfolio/static/media/react-contact-gif.601d9f9a8a0e006bf17b.gif",
+    "static/media/react-projects-gif.gif": "/react-portfolio/static/media/react-projects-gif.3eea73826bde5cb76ce1.gif",
     "static/media/static.gif": "/react-portfolio/static/media/static.8603acf6fbe1b6c9270d.gif",
     "static/media/tv.png": "/react-portfolio/static/media/tv.d4441a379a6e132090cc.png",
     "static/media/IMG-3707.jpg": "/react-portfolio/static/media/IMG-3707.edaecd349d1a4de05224.jpg",
     "static/media/graphics-moon_full.png": "/react-portfolio/static/media/graphics-moon_full.cc448c22c2d33f305edf.png",
+    "static/media/hack-forum-back.gif": "/react-portfolio/static/media/hack-forum-back.82f619d6662e96a34ac5.gif",
+    "static/media/taskmaster-image.PNG": "/react-portfolio/static/media/taskmaster-image.3487d62dcc0b9aad965f.PNG",
+    "static/media/weather-image.PNG": "/react-portfolio/static/media/weather-image.0a9fa82e85e2e21e711f.PNG",
+    "static/media/readme-image.PNG": "/react-portfolio/static/media/readme-image.ef0cc026a405763ccc60.PNG",
+    "static/media/spray-can-image.PNG": "/react-portfolio/static/media/spray-can-image.572871f3294ff1ba5850.PNG",
+    "static/media/chessmaster-image.PNG": "/react-portfolio/static/media/chessmaster-image.186872e385d1307affc1.PNG",
     "index.html": "/react-portfolio/index.html",
-    "main.3bae6467.css.map": "/react-portfolio/static/css/main.3bae6467.css.map",
-    "main.00cbb752.js.map": "/react-portfolio/static/js/main.00cbb752.js.map",
+    "main.d63ca42b.css.map": "/react-portfolio/static/css/main.d63ca42b.css.map",
+    "main.0b5cbd04.js.map": "/react-portfolio/static/js/main.0b5cbd04.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bae6467.css",
-    "static/js/main.00cbb752.js"
+    "static/css/main.d63ca42b.css",
+    "static/js/main.0b5cbd04.js"
   ]
 }
