@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.d63ca42b.css",
-    "main.js": "/react-portfolio/static/js/main.0b5cbd04.js",
+    "main.css": "/react-portfolio/static/css/main.1f30d3b4.css",
+    "main.js": "/react-portfolio/static/js/main.2547f587.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/react-about-gif.gif": "/react-portfolio/static/media/react-about-gif.da88ea7177fa40d931fc.gif",
     "static/media/react-skills-gif.gif": "/react-portfolio/static/media/react-skills-gif.a0b375e57c28e0392435.gif",
     "static/media/react-contact-gif.gif": "/react-portfolio/static/media/react-contact-gif.601d9f9a8a0e006bf17b.gif",
     "static/media/react-projects-gif.gif": "/react-portfolio/static/media/react-projects-gif.3eea73826bde5cb76ce1.gif",
     "static/media/static.gif": "/react-portfolio/static/media/static.8603acf6fbe1b6c9270d.gif",
+    "static/media/spray-can-card.png": "/react-portfolio/static/media/spray-can-card.085bce076c60a0686b81.png",
+    "static/media/chessmaster-card4.png": "/react-portfolio/static/media/chessmaster-card4.e6f0a094d5465a04d953.png",
+    "static/media/deep-thoughts-card.png": "/react-portfolio/static/media/deep-thoughts-card.672edafb90a094a57e82.png",
     "static/media/tv.png": "/react-portfolio/static/media/tv.d4441a379a6e132090cc.png",
+    "static/media/hack-forum-card.gif": "/react-portfolio/static/media/hack-forum-card.f29730a859083406d04b.gif",
+    "static/media/weather-card.png": "/react-portfolio/static/media/weather-card.99f680c166f946c832e6.png",
     "static/media/IMG-3707.jpg": "/react-portfolio/static/media/IMG-3707.edaecd349d1a4de05224.jpg",
+    "static/media/taskmaster-card.png": "/react-portfolio/static/media/taskmaster-card.589a8a465e224a2ea1d7.png",
     "static/media/graphics-moon_full.png": "/react-portfolio/static/media/graphics-moon_full.cc448c22c2d33f305edf.png",
-    "static/media/hack-forum-back.gif": "/react-portfolio/static/media/hack-forum-back.82f619d6662e96a34ac5.gif",
-    "static/media/taskmaster-image.PNG": "/react-portfolio/static/media/taskmaster-image.3487d62dcc0b9aad965f.PNG",
-    "static/media/weather-image.PNG": "/react-portfolio/static/media/weather-image.0a9fa82e85e2e21e711f.PNG",
-    "static/media/readme-image.PNG": "/react-portfolio/static/media/readme-image.ef0cc026a405763ccc60.PNG",
-    "static/media/spray-can-image.PNG": "/react-portfolio/static/media/spray-can-image.572871f3294ff1ba5850.PNG",
-    "static/media/chessmaster-image.PNG": "/react-portfolio/static/media/chessmaster-image.186872e385d1307affc1.PNG",
     "index.html": "/react-portfolio/index.html",
-    "main.d63ca42b.css.map": "/react-portfolio/static/css/main.d63ca42b.css.map",
-    "main.0b5cbd04.js.map": "/react-portfolio/static/js/main.0b5cbd04.js.map",
+    "main.1f30d3b4.css.map": "/react-portfolio/static/css/main.1f30d3b4.css.map",
+    "main.2547f587.js.map": "/react-portfolio/static/js/main.2547f587.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d63ca42b.css",
-    "static/js/main.0b5cbd04.js"
+    "static/css/main.1f30d3b4.css",
+    "static/js/main.2547f587.js"
   ]
 }
