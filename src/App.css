@@ -100,7 +100,7 @@ button:hover {
   width: 84px;
 }
 
-.static{
+.static {
   background-image: url(../src/assets/static.gif);
   z-index: 1;
   width: 500px;
@@ -111,7 +111,7 @@ button:hover {
   position: absolute;
 }
 
-.about-tv{
+.about-tv {
   background-image: url(../src/assets/react-about-gif.gif);
   z-index: 1;
   width: 480px;
@@ -121,7 +121,8 @@ button:hover {
   background-repeat: no-repeat;
   position: absolute;
 }
-.contact-tv{
+
+.contact-tv {
   background-image: url(../src/assets/react-contact-gif.gif);
   z-index: 1;
   width: 480px;
@@ -131,7 +132,8 @@ button:hover {
   background-repeat: no-repeat;
   position: absolute;
 }
-.skills-tv{
+
+.skills-tv {
   background-image: url(../src/assets/react-skills-gif.gif);
   z-index: 1;
   width: 480px;
@@ -141,7 +143,8 @@ button:hover {
   background-repeat: no-repeat;
   position: absolute;
 }
-.projects-tv{
+
+.projects-tv {
   background-image: url(../src/assets/react-projects-gif.gif);
   z-index: 1;
   width: 480px;
@@ -166,8 +169,8 @@ button:hover {
 .card {
   background-color: rgb(17, 17, 20);
   color: white;
-  width: 440px;
-  height: 440px;
+  width: 450px;
+  height: 450px;
   position: absolute;
 }
 
@@ -175,6 +178,7 @@ h1 {
   font-family: 'Teko', sans-serif;
   font-size: 42px;
   letter-spacing: 2px;
+  padding-left: 12px;
 }
 
 .welcome-text {
@@ -531,6 +535,7 @@ p {
 /* Projects */
 .section-project {
   background-color: rgb(17, 17, 20);
+  margin-top: -4vh;
 }
 
 .project-articles {
@@ -549,51 +554,6 @@ p {
   margin-bottom: 20px;
   color: white;
 }
-
-.spray-can:hover {
-  box-shadow: 0 2px 4px -1px rgba(255, 255, 255, 0.2), 0 4px 5px 0 rgba(255, 255, 255, 0.14), 0 1px 10px 0 rgba(255, 255, 255, 0.12);
-  background-image: url(../src/assets/spray-can-image.PNG);
-  background-size: cover;
-  background-position: 75px 70px;
-  transform: rotate(-1deg);
-}
-.chessmaster:hover {
-  box-shadow: 0 2px 4px -1px rgba(255, 255, 255, 0.2), 0 4px 5px 0 rgba(255, 255, 255, 0.14), 0 1px 10px 0 rgba(255, 255, 255, 0.12);
-  background-image: url(../src/assets/chessmaster-image.PNG);
-  background-size: cover;
-  background-position: 52px 95px;
-  transform: rotate(-1deg);
-}
-.taskmaster:hover {
-  box-shadow: 0 2px 4px -1px rgba(255, 255, 255, 0.2), 0 4px 5px 0 rgba(255, 255, 255, 0.14), 0 1px 10px 0 rgba(255, 255, 255, 0.12);
-  background-image: url(../src/assets/taskmaster-image.PNG);
-  background-size: cover;
-  background-position: 41px 75px;
-  transform: rotate(-1deg);
-}
-.hacker-forum:hover {
-  box-shadow: 0 2px 4px -1px rgba(255, 255, 255, 0.2), 0 4px 5px 0 rgba(255, 255, 255, 0.14), 0 1px 10px 0 rgba(255, 255, 255, 0.12);
-  background-image: url(../src/assets/hack-forum-back.gif);
-  background-size: cover;
-  background-position: 120px 35px;
-  transform: rotate(-1deg);
-}
-.weather:hover {
-  box-shadow: 0 2px 4px -1px rgba(255, 255, 255, 0.2), 0 4px 5px 0 rgba(255, 255, 255, 0.14), 0 1px 10px 0 rgba(255, 255, 255, 0.12);
-  background-image: url(../src/assets/weather-image.PNG);
-  background-size: cover;
-  background-position: 50px 44px;
-  transform: rotate(-1deg);
-}
-.readme-gen:hover {
-  box-shadow: 0 2px 4px -1px rgba(255, 255, 255, 0.2), 0 4px 5px 0 rgba(255, 255, 255, 0.14), 0 1px 10px 0 rgba(255, 255, 255, 0.12);
-  background-image: url(../src/assets/readme-image.PNG);
-  background-size: cover;
-  background-position: 70px 44px;
-  transform: rotate(-1deg);
-}
-
-
 
 .git-icon {
   padding: 10px 0 0 0;
@@ -689,6 +649,136 @@ label {
   height: 30px;
   background: linear-gradient(to right, #00F0FF 0%, #7AE286 100%) top/100% 2px, linear-gradient(to right, #00F0FF 0%, #7AE286 100%) bottom/100% 2px;
 }
+
+/* Tilt Effect from Vanilla Tilt */
+
+
+.project-card {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 210px 150px 80px;
+  grid-template-areas: "image""text""stats";
+  border-radius: 18px;
+  background: #1d1d1d;
+  color: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  text-align: justify;
+  cursor: pointer;
+  margin: 30px;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+}
+
+.rgb::after {
+  content: "";
+  background: linear-gradient(45deg,
+      #00F0FF 0%,
+      #6CF7B0 10%,
+      #00F0FF 20%,
+      #ba0cf8 30%,
+      #00F0FF 40%,
+      #7AE286 50%,
+      #00F0FF 60%,
+      #6CF7B0 70%,
+      #ba0cf8 80%,
+      #6CF7B0 90%,
+      #00F0FF 100%) repeat 0% 0% / 300% 100%;
+  position: absolute;
+  inset: -3px;
+  border-radius: 16px;
+  filter: blur(8px);
+  transform: translateZ(-1px);
+  /*or z-index */
+  animation: rgb 6s linear infinite;
+}
+
+@keyframes rgb {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.spray-can {
+  background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%), url("../src/assets/spray-can-card.png");
+}
+.chessmaster {
+  background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%), url("../src/assets/chessmaster-card4.png");
+}
+.hacker-forum {
+  background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%), url("../src/assets/hack-forum-card.gif");
+}
+.taskmaster {
+  background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%), url("../src/assets/taskmaster-card.png");
+}
+.weather {
+  background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%), url("../src/assets/weather-card.png");
+}
+.deep-thoughts {
+  background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%), url("../src/assets/deep-thoughts-card.png");
+}
+
+.card-image {
+  grid-area: image;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+
+
+.card-text {
+  grid-area: text;
+  margin: 25px;
+  transform: translateZ(30px) !important;
+}
+
+.card-title {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  
+}
+
+.card-text .date {
+  color: rgb(255, 7, 110);
+  font-size: 13px;
+}
+
+.card-text p {
+  color: grey;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.card-text h2 {
+  margin-top: 0px;
+  font-size: 28px;
+}
+
+.card-stats {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 5px;
+}
+
+.git-link {
+  margin: 0 0 0 0;
+}
+
+
 
 /* Media Queries */
 

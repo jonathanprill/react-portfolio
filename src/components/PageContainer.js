@@ -5,7 +5,8 @@ import Contact from './pages/Contact';
 import Skills from './pages/Skills';
 import Portfolio from './pages/Portfolio';
 import Welcome from './pages/Welcome';
-import Projects from './pages/Projects';
+// import Projects from './pages/Projects';
+import ProjectCards from './pages/ProjectCards';
 import Footer from './Footer';
 import Static from './pages/Static';
 import AboutTv from './pages/AboutTv';
@@ -39,7 +40,7 @@ function PageContainer() {
     // renders projects if clicked
     const renderProjects = () => {
         if (currentPage === 'Portfolio') {
-            return <Projects />
+            return <ProjectCards />
         }
     }
     // will render Tv Station based upon which nav button was clicked
