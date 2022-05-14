@@ -6,10 +6,10 @@ function Welcome() {
         <div className='card'>
             <h1>Welcome!</h1>
             <p className='welcome-text'>
-                As a professional engineer and recent graduate from a full stack coding bootcamp
-                you would think I could fix a simple television. I lost the remote and cant seem to
-                get it working. See if you can find a fix.
+                Use the buttons on the TV to switch through channels.
             </p>
+            {/* Animated Arrow */}
+            <div class="arrow bounce"></div>
         </div>
     )
 }

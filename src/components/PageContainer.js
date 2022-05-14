@@ -13,6 +13,7 @@ import AboutTv from './pages/AboutTv';
 import ContactTv from './pages/ContactTv';
 import SkillsTv from './pages/SkillsTv';
 import ProjectsTv from './pages/ProjectsTv';
+import Directory from './Directory';
 
 function PageContainer() {
     // will change pages based on currentPage but will default start on Welcome
@@ -81,6 +82,7 @@ function PageContainer() {
             </div>
             {renderProjects()}
             <Footer />
+            <Directory currentPage={currentPage} handlePageChange={handlePageChange}/>
         </div>
     )
 }
