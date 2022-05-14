@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.1f30d3b4.css",
-    "main.js": "/react-portfolio/static/js/main.2547f587.js",
+    "main.css": "/react-portfolio/static/css/main.32a6f40d.css",
+    "main.js": "/react-portfolio/static/js/main.9e7236d8.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/react-about-gif.gif": "/react-portfolio/static/media/react-about-gif.da88ea7177fa40d931fc.gif",
     "static/media/react-skills-gif.gif": "/react-portfolio/static/media/react-skills-gif.a0b375e57c28e0392435.gif",
@@ -17,13 +17,15 @@
     "static/media/IMG-3707.jpg": "/react-portfolio/static/media/IMG-3707.edaecd349d1a4de05224.jpg",
     "static/media/taskmaster-card.png": "/react-portfolio/static/media/taskmaster-card.589a8a465e224a2ea1d7.png",
     "static/media/graphics-moon_full.png": "/react-portfolio/static/media/graphics-moon_full.cc448c22c2d33f305edf.png",
+    "static/media/mount-grid@1x.png": "/react-portfolio/static/media/mount-grid@1x.936855fc6f553d78c9c4.png",
+    "static/media/bg-grid-footer_1x.png": "/react-portfolio/static/media/bg-grid-footer_1x.cf74900a92f6f8bbab81.png",
     "index.html": "/react-portfolio/index.html",
-    "main.1f30d3b4.css.map": "/react-portfolio/static/css/main.1f30d3b4.css.map",
-    "main.2547f587.js.map": "/react-portfolio/static/js/main.2547f587.js.map",
+    "main.32a6f40d.css.map": "/react-portfolio/static/css/main.32a6f40d.css.map",
+    "main.9e7236d8.js.map": "/react-portfolio/static/js/main.9e7236d8.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f30d3b4.css",
-    "static/js/main.2547f587.js"
+    "static/css/main.32a6f40d.css",
+    "static/js/main.9e7236d8.js"
   ]
 }
